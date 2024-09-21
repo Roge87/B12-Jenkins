@@ -1,6 +1,7 @@
 package com.steps;
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,9 +30,9 @@ public class LoginStep {
 		// WebDriverManager.firefoxdriver().setup();
 		// driver = new FirefoxDriver();
 
-		// Edge-WIndows User
-//		WebDriverManager.edgedriver().setup();
-//		driver = new EdgeDriver();
+	 //Edge-WIndows User
+		WebDriverManager.edgedriver().setup();
+		driver = new EdgeDriver();
 
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
